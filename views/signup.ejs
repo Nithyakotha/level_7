@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup</title>
+  </head>
+  <style>
+    body{
+      background-color:cornsilk;
+      padding: 30px 30px; 
+      border-radius: 7px;
+    }
+    .Signup {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    width: 300px;
+    border: 15px solid lightgreen;
+    padding: 50px;
+    margin: 20px;
+    color: red;
+    background-color:powderblue;
+    text-align: center;
+    font-size: 20px;
+    }
+    .col{
+      padding: 15px 32px;
+    }
+    .left {
+    display: block;
+    margin-left:15px;
+    margin-right:50px;
+    width: 30;
+    height: 70;
+}
+  </style>
+  <body>
+    <h1 style="color:orange;" align="center">Healthy BMI calculator</h1>
+      <br>
+     <h2> <p><b><marquee>Hello !! Welcome you can enroll into this and check about the healthy weight tips.</b></marquee></p></h2>
+      <center>
+    <form action="sign-up" method="GET" >
+      <div class="row">
+        <h1 align="center">Signup And Login Here</h1>
+        <div class="vl">
+          <span class="vl-innertext"></span>
+        </div>
+        <div class="Signup">
+          <div class="col">
+            <label><b>Email</b></label><br>
+            <input type="text" placeholder="Enter email" name="email" /><br><br>
+            <label><b>Name</b></label><br>
+            <input type="text" placeholder="Name" name="name"/><br><br>
+            <label><b>password</b></label><br>
+            <input type="password" placeholder="Password" name="password1" /><br><br>
+            <label><b>Re-enter Password</b></label><br>
+            <input
+              type="password"
+              placeholder="Re-enter your password"
+              name="password"
+            /><br>
+            <br><br>
+            <input type="submit" class="button" value="submit" />
+            <button type="cancel" onclick="javascript:window.location='http://stackoverflow.com';">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </form>
+  </center>
+  </body>
+</html>
